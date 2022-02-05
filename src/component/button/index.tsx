@@ -6,9 +6,10 @@ const MyComponent = styled('button')`
   border-radius: 4px;
 `
 
-type InputProps = {
+interface InputProps {
   color?: 'red' | 'blue'
 }
+
 const MyComponent2 = styled('button')<InputProps>((props) => ({
   background: props.color,
   padding: 5,

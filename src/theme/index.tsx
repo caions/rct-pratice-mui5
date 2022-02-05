@@ -21,10 +21,10 @@ export const theme = createTheme({
       black: "#d615b6"
     },
     text: {
-      primary: "green"
+      primary: "#ff0000"
     },
     primary: {
-      main: '#ff0',
+      main: "#d61",
     },
   },
   status: {
