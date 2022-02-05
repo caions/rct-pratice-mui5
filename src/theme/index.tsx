@@ -17,15 +17,8 @@ declare module '@mui/material/styles' {
 
 export const theme = createTheme({
   palette: {
-    common: {
-      black: "#d615b6"
-    },
-    text: {
-      primary: "#ff0000"
-    },
-    primary: {
-      main: "#d61",
-    },
+
+
   },
   status: {
     danger: orange[500],
