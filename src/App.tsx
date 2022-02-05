@@ -1,6 +1,6 @@
-import { Dashboard } from './component/button/index'
-import { Input } from './component/Input';
-import { CheckBox } from './component/Radio/index'
+import { Dashboard } from './components/button/index'
+import { Input } from './components/Input';
+import { CheckBox } from './components/Radio/index'
 
 const App = () => {
   return (<>
