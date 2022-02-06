@@ -1,9 +1,9 @@
-import { CustomButton } from './components/Button';
+import { CustomCheckBox } from './components/CheckBox';
 
 const App = () => {
   return (
     <>
-      <CustomButton />
+      <CustomCheckBox />
     </>
   );
 };
