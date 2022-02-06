@@ -1,5 +1,5 @@
-import { createTheme } from "@mui/material";
-import { orange } from "@mui/material/colors";
+import { createTheme } from '@mui/material';
+import { orange } from '@mui/material/colors';
 
 declare module '@mui/material/styles' {
   interface Theme {
@@ -16,10 +16,7 @@ declare module '@mui/material/styles' {
 }
 
 export const theme = createTheme({
-  palette: {
-
-
-  },
+  palette: {},
   status: {
     danger: orange[500],
   },
