@@ -1,9 +1,9 @@
-import { Input } from './components/Input';
+import { CustomButton } from './components/Button';
 
 const App = () => {
   return (
     <>
-      <Input />
+      <CustomButton />
     </>
   );
 };

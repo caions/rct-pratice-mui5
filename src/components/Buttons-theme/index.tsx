@@ -10,8 +10,8 @@ interface InputProps {
   color?: 'red' | 'blue';
 }
 
-const MyComponent2 = styled('button')<InputProps>((props) => ({
-  background: props.color,
+const MyComponent2 = styled('button')<InputProps>(({ theme, color }) => ({
+  background: color,
   padding: 5,
   borderRadius: 4,
 }));
@@ -27,7 +27,7 @@ export const Dashboard = (props: any) => {
   return (
     <>
       <MyComponent>comp styled '``'</MyComponent>
-      <MyComponent2 color={'blue'}>comp styled obj</MyComponent2>
+      <MyComponent2 color={'red'}>comp styled obj</MyComponent2>
       <MyThemeComponent>comp theme</MyThemeComponent>
     </>
   );
