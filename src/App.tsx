@@ -1,9 +1,12 @@
-import { CustomCheckBox } from './components/CheckBox';
+import { DenseTable } from './components/Table';
+import styles from './style.module.css';
 
 const App = () => {
   return (
     <>
-      <CustomCheckBox />
+      <div className={styles.container}>
+        <DenseTable />
+      </div>
     </>
   );
 };

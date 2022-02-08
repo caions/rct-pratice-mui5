@@ -17,12 +17,16 @@ declare module '@mui/material/styles' {
 
 export const theme = createTheme({
   palette: {
+    common: {
+      black: '#202040',
+    },
     primary: {
-      main: '#f700ff',
+      main: '#5C5CFF',
+      light: '#A4A4FF',
     },
-    secondary: {
-      main: '#420a1b',
-    },
+  },
+  typography: {
+    fontFamily: 'inter sans-serif',
   },
   status: {
     danger: orange[500],
